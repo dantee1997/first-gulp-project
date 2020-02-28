@@ -887,6 +887,8 @@ align-items:flex-end;
   display:none;
 }
 
+
+
 /* Mobile Settings */
 
 @media only screen and (max-width: 375px) {
@@ -923,7 +925,7 @@ align-items:flex-end;
   position: relative;
   display:inline-block;
   margin-top:1em;
-  width:24rem;
+  width:25rem;
   height:6rem;
 
 }
@@ -1071,6 +1073,20 @@ margin-left:-1rem
 width:100%;
   h1{
     font-size:45px;
+  }
+  p{
+    float:right;
+    padding-top:0.5rem;
+    width:10rem;
+  }
+
+  .header-w-btn{
+    float:right;
+    width:100%;
+
+    .hdr-btn{
+margin-left:10rem;
+    }
   }
 }
 }
