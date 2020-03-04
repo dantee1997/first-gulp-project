@@ -7,7 +7,7 @@ nav{
   display:block !important;
 }
 #header {
-  background: url(../img/header.png) no-repeat;
+  background: url(/dist/img/header.png) no-repeat;
   float: left;
   @extend .wdthrl;
   background-size: 100% 100%;
@@ -59,7 +59,7 @@ nav{
 
   &::before{
     content:"";
-    background:url(../img/rightelips.png) no-repeat;
+    background:url(/dist/img/rightelips.png) no-repeat;
     position: absolute;
     width: 12em;
     height:30em;
@@ -69,7 +69,7 @@ nav{
   }
   &::after{
     content:"";
-    background:url(../img/rgmini.png) no-repeat;
+    background:url(/dist/img/rgmini.png) no-repeat;
     position: absolute;
     right:0;
     height: 6em;
@@ -81,7 +81,7 @@ nav{
   .elips{
 
       content:"";
-      background:url(../img/rgminisky.png) no-repeat;
+      background:url(/dist/img/rgminisky.png) no-repeat;
       position: absolute;
       height: 6em;
       right: 0;
@@ -130,14 +130,14 @@ nav{
   width: 100%;
   position: relative;
   margin-top: 21em;
-  z-index:999;
+  z-index:9999;
 
   
   &.first-l{
 
     &::before{
       content:"";
-      background:url(../img/leftimg.png) no-repeat;
+      background:url(/dist/img/leftimg.png) no-repeat;
       position: absolute;
       width: 58em;
       height: 50em;
@@ -149,7 +149,7 @@ nav{
 
     &::after{
       content:"";
-      background:url(../img/rgback.png) no-repeat;
+      background:url(/dist/img/rgback.png) no-repeat;
       position: absolute;
       width: 90em;
       height: 60em;
@@ -164,7 +164,7 @@ nav{
 .content-w-rght{
 
   &::before{
-    background: url(../img/rgsky.png) no-repeat;
+    background: url(/dist/img/rgsky.png) no-repeat;
     width: 48em;
     height: 61em;
     right: -33em;
@@ -173,7 +173,7 @@ nav{
     @extend .baftr;
   }
   &::after{
-    background: url(../img/rightelips.png) no-repeat;
+    background: url(/dist/img/rightelips.png) no-repeat;
     width: 15em;
     height: 41em;
     right: 19em;
@@ -185,7 +185,7 @@ nav{
 }
 .content-w-rght2{
   &::before{
-    background: url(../img/rgred.png) no-repeat;
+    background: url(/dist/img/rgred.png) no-repeat;
     width: 48em;
     height: 61em;
     right: -26em;
@@ -194,7 +194,7 @@ nav{
     @extend .baftr;
   }
   &::after{
-    background: url(../img/rgback.png) no-repeat;
+    background: url(/dist/img/rgback.png) no-repeat;
     width: 48em;
     height: 61em;
     right: -28em;
@@ -251,7 +251,7 @@ nav{
   margin-top:15em;
 
   &::before{
-    background:url(../img/skyelips.png) no-repeat;
+    background:url(/dist/img/skyelips.png) no-repeat;
     height: 22em;
     top: -15em;
     z-index: 999;
@@ -260,7 +260,7 @@ nav{
   }
   
   &::after{
-    background:url(../img/rgmini.png) no-repeat;
+    background:url(/dist/img/rgmini.png) no-repeat;
     height: 6em;
     top: -1em;
     left: 21em;
@@ -274,7 +274,7 @@ nav{
 .cnt-mini{
   
   &::before{
-    background:url(../img/rgminisky.png) no-repeat;
+    background:url(/dist/img/rgminisky.png) no-repeat;
     height: 3em;
     top: 3em;
     left: 28em;
@@ -293,7 +293,7 @@ nav{
 width:100%;
 
   &::before{
-    background:url(../img/rgsky.png) no-repeat;
+    background:url(/dist/img/rgsky.png) no-repeat;
     height: 50em;
     top: -21em;
     right: -32em;
@@ -303,7 +303,7 @@ width:100%;
    @extend .baftr;
   }
   &::after{
-    background:url(../img/rgred.png) no-repeat;
+    background:url(/dist/img/rgred.png) no-repeat;
     right: -35em;
     z-index: -999;
     top: -3em;
@@ -319,7 +319,7 @@ width:100%;
   width:100%;
 
  &::before{
-    background:url(../img/rightelips.png) no-repeat;
+    background:url(/dist/img/rightelips.png) no-repeat;
     right: 2.9em;
     z-index: -1000;
     top: 5.1em;
@@ -329,7 +329,7 @@ width:100%;
     @extend .baftr;
   }
   &::after{
-    background:url(../img/rgback.png) no-repeat;
+    background:url(/dist/img/rgback.png) no-repeat;
     height: 50em;
     right: -35.4em;
     z-index: -999;
@@ -388,7 +388,7 @@ width:100%;
 .th-bfr{
   width:100%;
   &::before{
-    background:url(../img/skyelips.png) no-repeat;
+    background:url(/dist/img/skyelips.png) no-repeat;
     right: -6em;
     z-index: 1000;
     top: -25em;
@@ -401,7 +401,7 @@ width:100%;
   width:100%;
 
   &::before{
-    background:url(../img/rgred.png) no-repeat;
+    background:url(/dist/img/rgred.png) no-repeat;
     background-size: 55em;
     left: -37em;
     z-index: 1001;
@@ -413,7 +413,7 @@ width:100%;
   }
 
   &::after{
-    background:url(../img/rgsky.png) no-repeat;
+    background:url(/dist/img/rgsky.png) no-repeat;
     left: -47.2em;
     z-index: 1000;
     top: -3em;
@@ -428,7 +428,7 @@ width:100%;
 .th-lft-n{
   width:100%;
   &::before{
-    background:url(../img/rightelips.png) no-repeat;
+    background:url(/dist/img/rightelips.png) no-repeat;
     left: -6em;
     z-index: 1001;
     top: 37em;
@@ -438,7 +438,7 @@ width:100%;
     @extend .baftr;
   }
   &::after{
-    background:url(../img/rgback.png) no-repeat;
+    background:url(/dist/img/rgback.png) no-repeat;
     background-size: 55em;
     left: -41em;
     z-index: 1001;
@@ -521,14 +521,14 @@ width:100%;
 }
 
 #content-bg {
-  background: url(../img/bckgrnd2.png) no-repeat;
+  background: url(/dist/img/bckgrnd2.png) no-repeat;
   background-size: 100% 100%;
   @extend .wdthrl;
   height: 40em;
   top: 5em;
 
   &::before{
-    background:url(../img/rgminisky.png) no-repeat;
+    background:url(/dist/img/rgminisky.png) no-repeat;
     right: -5em;
     z-index: 1001;
     top: 35em;
@@ -542,7 +542,7 @@ width:100%;
   width:100%;
 
   &::before{
-    background:url(../img/rightelips.png) no-repeat;
+    background:url(/dist/img/rightelips.png) no-repeat;
     right: -8em;
     z-index: 1001;
     top: 25em;
@@ -551,7 +551,7 @@ width:100%;
     @extend .baftr;
   }
   &::after{
-    background:url(../img/rgmini.png) no-repeat;
+    background:url(/dist/img/rgmini.png) no-repeat;
     right: -7em;
     z-index: 1001;
     top: 31em;
@@ -562,7 +562,7 @@ width:100%;
 }
 .bg-left{
 &::before{
-  background:url(../img/rgorange.png) no-repeat;
+  background:url(/dist/img/rgorange.png) no-repeat;
   left: -39em;
   top: 17em;
   height: 60em;
@@ -571,7 +571,7 @@ width:100%;
   @extend .baftr;
 }
 &::after{
-  background:url(../img/rgback.png) no-repeat;
+  background:url(/dist/img/rgback.png) no-repeat;
   left: -37em;
   top: 25em;
   height: 60em;
@@ -594,7 +594,7 @@ width:100%;
 width: 100%;
 
 &::before{
-  background:url(../img/skyelips.png) no-repeat;
+  background:url(/dist/img/skyelips.png) no-repeat;
   left: 0em;
   top: -10em;
   height: 22em;
@@ -603,7 +603,7 @@ width: 100%;
   z-index:-999;
 }
 &::after{
-  background:url(../img/rgmini.png) no-repeat;
+  background:url(/dist/img/rgmini.png) no-repeat;
   left:21em;
   top: -1em;
   height: 6em;
@@ -615,7 +615,7 @@ width: 100%;
 .lst-rght{
 
   &::before{
-    background:url(../img/rgsky.png) no-repeat;
+    background:url(/dist/img/rgsky.png) no-repeat;
     right: -35em;
     top: -18em;
     height: 50em;
@@ -625,7 +625,7 @@ width: 100%;
     @extend .baftr;
   }
   &::after{
-    background:url(../img/rgred.png) no-repeat;
+    background:url(/dist/img/rgred.png) no-repeat;
     right: -33em;
     top: 6em;
     height: 55em;
@@ -638,7 +638,7 @@ width: 100%;
 .lst-rght2{
 
   &::before{
-    background:url(../img/rgback.png) no-repeat;
+    background:url(/dist/img/rgback.png) no-repeat;
     right: -39.4em;
     top: -17.5em;
     height: 70em;
@@ -648,7 +648,7 @@ width: 100%;
     @extend .baftr;
   }
   &::after{
-    background:url(../img/rightelips.png) no-repeat;
+    background:url(/dist/img/rightelips.png) no-repeat;
     right: 8em;
     top: 9.4em;
     height: 14em;
@@ -662,7 +662,7 @@ width: 100%;
   width:100%;
 
   &::before{
-    background:url(../img/rgred.png) no-repeat;
+    background:url(/dist/img/rgred.png) no-repeat;
     height: 50em;
     transform: rotate(78deg);
     z-index: -999;
@@ -672,7 +672,7 @@ width: 100%;
     @extend .baftr;
   }
   &::after{
-    background:url(../img/rgback.png) no-repeat;
+    background:url(/dist/img/rgback.png) no-repeat;
     height: 50em;
     z-index: -999;
     width: 73em;
@@ -686,7 +686,7 @@ width: 100%;
 width:100%;
 
 &::before{
-  background:url(../img/rgsky.png) no-repeat;
+  background:url(/dist/img/rgsky.png) no-repeat;
   left: -42em;
   top: 23em;
   height: 70em;
@@ -696,7 +696,7 @@ width:100%;
   @extend .baftr;
 }
 &::after{
-  background:url(../img/rightelips.png) no-repeat;
+  background:url(/dist/img/rightelips.png) no-repeat;
   left: 7em;
   top: 76em;
   height: 15em;
@@ -710,7 +710,7 @@ width:100%;
 width:100%;
 
 &::before{
-  background:url(../img/skyelips.png) no-repeat;
+  background:url(/dist/img/skyelips.png) no-repeat;
   right: -1em;
   top: 61em;
   height: 21em;
@@ -719,7 +719,7 @@ width:100%;
   @extend .baftr;
 }
 &::after{
-  background:url(../img/rightelips.png) no-repeat;
+  background:url(/dist/img/rightelips.png) no-repeat;
   right: 16em;
   top: 66em;
   height: 18em;
@@ -732,7 +732,7 @@ width:100%;
 .lst-btm-rght-2{
 
   &::before{
-    background:url(../img/rgmini.png) no-repeat;
+    background:url(/dist/img/rgmini.png) no-repeat;
   right: 20em;
   top: 73em;
   height: 21em;
@@ -741,7 +741,7 @@ width:100%;
   @extend .baftr;
   }
   &::after{
-    background:url(../img/rgminisky.png) no-repeat;
+    background:url(/dist/img/rgminisky.png) no-repeat;
   right: 25em;
   top: 76em;
   height: 21em;
@@ -857,7 +857,7 @@ align-items:flex-end;
   top: 7em;
 }
 .bckgrnd {
-  background: url(../img/polygon.png) no-repeat;
+  background: url(/dist/img/polygon.png) no-repeat;
   @extend .wdthrl;
   background-size: 200% 100%;
   height: 85em;
